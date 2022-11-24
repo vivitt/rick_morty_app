@@ -34,7 +34,7 @@ const Register = ({
   function registerUser(event) {
     event.preventDefault();
     setIsLoading(true);
-    const url = "https://the-movieapp.herokuapp.com/auth/register";
+    const url = `${process.env.REACT_APP_API}/auth/register`;
     axios
       .post(url, {
         name: name,

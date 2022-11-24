@@ -10,7 +10,7 @@ const LogoutBtn = ({ setFavs, setIsLoading, setLogoutError }) => {
   const logout = () => {
     setLogoutError(false);
     setIsLoading(true);
-    const url = "https://the-movieapp.herokuapp.com/auth/logout";
+    const url = `${process.env.REACT_APP_API}/auth/logout`;
 
     axios
       .get(url)

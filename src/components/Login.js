@@ -28,7 +28,7 @@ const Login = ({
   //login func
   function loginUser(event) {
     event.preventDefault();
-    const url = "https://the-movieapp.herokuapp.com/auth/login";
+    const url = `${process.env.REACT_APP_API}/auth/login`;
     setIsLoading(true);
     axios
       .post(url, {
