@@ -8,7 +8,7 @@
 
 
   <p>An app to navigate trough the characters from this TV show, get the basic info and select your favorite ones.</p>
-  <p>This project is my solution to the the Talent Squad's frontend challenge driven by Barcelona Digital Talent.</p>
+  <p>This project is my solution to the the Talent Squad's frontend challenge by Barcelona Digital Talent.</p>
   </div>
 
 
